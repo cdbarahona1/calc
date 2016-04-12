@@ -11,12 +11,10 @@ function cuadrado() {
   num.value = num.value * num.value;
 }
 
-
-
-
-
-
-
+function sqr(){
+  var num = documentById("n1");
+  num.value = Math.sqrt(num.value);
+}
 
 
 
@@ -27,7 +25,6 @@ function cuadrado() {
   <input type="text" id="n1" onclick="vaciar()"><p>
 
   <button onclick="cuadrado()"> x<sup>2</sup> </button>
-
-
+  <button onclick="sqrt()"> sqrt(x) </button>
 </body>
 </html>
